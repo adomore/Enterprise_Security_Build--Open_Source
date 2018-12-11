@@ -19,7 +19,7 @@
 
 2、下载地址：https://www.splunk.com/zh-hans_cn/download/
 
-![splunk-1](https://github.com/bloodzer0/Enterprise_Security_Build--Open_Source/tree/master/Infrastructure%20Security/Log%20Analysis/img/splunk-1.png)
+![splunk-1](https://github.com/bloodzer0/Enterprise_Security_Build--Open_Source/raw/master/Infrastructure%20Security/Log%20Analysis/img/splunk-1.png)
 
 3、备份下载地址：
 
