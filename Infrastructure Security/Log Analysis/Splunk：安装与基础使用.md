@@ -19,7 +19,7 @@
 
 2、下载地址：https://www.splunk.com/zh-hans_cn/download/
 
-![](C:\Users\Administrator\Desktop\splunk-img\splunk安装\splunk-1.png)
+![splunk-1.png](https://github.com/bloodzer0/Enterprise_Security_Build--Open_Source/tree/master/Infrastructure%20Security/Log%20Analysis/img/splunk-1.png)
 
 3、备份下载地址：
 
@@ -29,21 +29,20 @@
 
 双击splunk，然后勾选 `check this to accept the License Agreement` ，然后进行下一步。
 
-![](C:\Users\Administrator\Desktop\splunk-img\splunk安装\18.png)
+![splunk-18.png](https://github.com/bloodzer0/Enterprise_Security_Build--Open_Source/tree/master/Infrastructure%20Security/Log%20Analysis/img/splunk-18.png)
 
 为了splunk配置WEB管理界面的账号密码。
 
-![](C:\Users\Administrator\Desktop\splunk-img\splunk安装\19.png)
+![splunk-19.png](https://github.com/bloodzer0/Enterprise_Security_Build--Open_Source/tree/master/Infrastructure%20Security/Log%20Analysis/img/splunk-19.png)
 
 创建开始菜单快捷方式，点击`Intsall` 开始安装。
-
-![](C:\Users\Administrator\Desktop\splunk-img\splunk安装\20.png)
+![splunk-20.png](https://github.com/bloodzer0/Enterprise_Security_Build--Open_Source/tree/master/Infrastructure%20Security/Log%20Analysis/img/splunk-20.png)
 
 等待少许时刻，安装成功后选择`Launch browser with Splunk Enterprise`,通过浏览器打开应用界面。
 
-![](C:\Users\Administrator\Desktop\splunk-img\splunk安装\21.png)
+![splunk-21.png](https://github.com/bloodzer0/Enterprise_Security_Build--Open_Source/tree/master/Infrastructure%20Security/Log%20Analysis/img/splunk-21.png)
 
-![](C:\Users\Administrator\Desktop\splunk-img\splunk安装\22.png)
+![splunk-22.png](https://github.com/bloodzer0/Enterprise_Security_Build--Open_Source/tree/master/Infrastructure%20Security/Log%20Analysis/img/splunk-22.png)
 
 - [x] **注意**
 
@@ -59,7 +58,7 @@
 
   然后启动服务下的splunkweb服务即可。
 
-  ![](C:\Users\Administrator\Desktop\splunk-img\splunk安装\23.png)
+![splunk-23.png](https://github.com/bloodzer0/Enterprise_Security_Build--Open_Source/tree/master/Infrastructure%20Security/Log%20Analysis/img/splunk-23.png)
 
   2、还有一种情况，splunk的web管理界面可能无法访问，就是默认的8000端口被占用。解决方案：
 
@@ -79,7 +78,7 @@
 dpkg -i splunk-7.2.1-be11b2c46e23-linux-2.6-amd64.deb 
 ```
 
-![](C:\Users\Administrator\Desktop\splunk-img\splunk安装\splunk-2.png)
+![splunk-2.png](https://github.com/bloodzer0/Enterprise_Security_Build--Open_Source/tree/master/Infrastructure%20Security/Log%20Analysis/img/splunk-2.png)
 
 
 
@@ -115,37 +114,37 @@ rpm -i --prefix=/opt/new_directory splunk_package_name.rpm
 
   双击DMG安装包，然后出现如下界面，然后双击`Install Splunk`开始下一步的安装。
 
-![](C:\Users\Administrator\Desktop\splunk-img\splunk安装\splunk-9.png)
+![splunk-9.png](https://github.com/bloodzer0/Enterprise_Security_Build--Open_Source/tree/master/Infrastructure%20Security/Log%20Analysis/img/splunk-9.png)
 
 按照提示继续进入下一步。
 
-![](C:\Users\Administrator\Desktop\splunk-img\splunk安装\splunk-10.png)
+![splunk-10.png](https://github.com/bloodzer0/Enterprise_Security_Build--Open_Source/tree/master/Infrastructure%20Security/Log%20Analysis/img/splunk-10.png)
 
 同意软件许可协议，进入下一步安装。
 
-![](C:\Users\Administrator\Desktop\splunk-img\splunk安装\splunk-11.png)
+![splunk-11.png](https://github.com/bloodzer0/Enterprise_Security_Build--Open_Source/tree/master/Infrastructure%20Security/Log%20Analysis/img/splunk-11.png)
 
-![](C:\Users\Administrator\Desktop\splunk-img\splunk安装\splunk-12.png)
+![splunk-12.png](https://github.com/bloodzer0/Enterprise_Security_Build--Open_Source/tree/master/Infrastructure%20Security/Log%20Analysis/img/splunk-12.png)
 
 这一步我们可以自定义splunk的安装位置，也可以默认安装即可。
 
-![](C:\Users\Administrator\Desktop\splunk-img\splunk安装\splunk-13.png)
+![splunk-13.png](https://github.com/bloodzer0/Enterprise_Security_Build--Open_Source/tree/master/Infrastructure%20Security/Log%20Analysis/img/splunk-13.png)
 
 等待少许时间即可完成splunk安装，成功页面的提示了splunk在macOS 下的两种启动方式。点击弹框中的“OK”，初始化splunk。
 
-![](C:\Users\Administrator\Desktop\splunk-img\splunk安装\splunk-14.png)
+![splunk-14.png](https://github.com/bloodzer0/Enterprise_Security_Build--Open_Source/tree/master/Infrastructure%20Security/Log%20Analysis/img/splunk-14.png)
 
 设置splunk管理界面的登录账号和密码。
 
-![](C:\Users\Administrator\Desktop\splunk-img\splunk安装\splunk-15.png)
+![splunk-15.png](https://github.com/bloodzer0/Enterprise_Security_Build--Open_Source/tree/master/Infrastructure%20Security/Log%20Analysis/img/splunk-15.png)
 
 选择 Start and Show Splunk，启动splunk。
 
-![](C:\Users\Administrator\Desktop\splunk-img\splunk安装\splunk-16.png)
+![splunk-16.png](https://github.com/bloodzer0/Enterprise_Security_Build--Open_Source/tree/master/Infrastructure%20Security/Log%20Analysis/img/splunk-16.png)
 
 至此基于macOS 的splunk就完成了。
 
-![](C:\Users\Administrator\Desktop\splunk-img\splunk安装\17.png)
+![splunk-17.png](https://github.com/bloodzer0/Enterprise_Security_Build--Open_Source/tree/master/Infrastructure%20Security/Log%20Analysis/img/splunk-17.png)
 
 ### 使用操作
 
@@ -154,7 +153,7 @@ rpm -i --prefix=/opt/new_directory splunk_package_name.rpm
 - **基于Windows启动splunk**
 
   ```shell
-  
+  C:\Program Files\Splunk\bin>splunk start
   ```
 
 - **基于Linux启动splunk**
@@ -183,9 +182,9 @@ http://127.0.0.1:8000 or http://localhost:8000
 http://IP:8000
 ```
 
-![](C:\Users\Administrator\Desktop\splunk-img\splunk安装\splunk-3.png)
+![splunk-3.png](https://github.com/bloodzer0/Enterprise_Security_Build--Open_Source/tree/master/Infrastructure%20Security/Log%20Analysis/img/splunk-3.png)
 
-![](C:\Users\Administrator\Desktop\splunk-img\splunk安装\splunk-4.png)
+![splunk-4.png](https://github.com/bloodzer0/Enterprise_Security_Build--Open_Source/tree/master/Infrastructure%20Security/Log%20Analysis/img/splunk-4.png)
 
 - **基于macOS 启动splunk**
 
